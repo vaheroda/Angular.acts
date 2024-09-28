@@ -1,0 +1,50 @@
+
+<!-- ENCABEZADO --------------------------------- -->
+<div class="fixed top-0 right-0 left-0 z-10">
+    <app-services></app-services>
+</div>
+
+<main class="lg:mt-[4.5rem] mt-12 z-0">
+    
+    <!-- NAVEGADOR DE SERVICIOS ------------------ -->
+    <div class="bg-black text-white roboto-medium justify-around items-center flex py-2 md:text-base sm:text-sm text-xs fixed top-0 right-0 left-0 z-20 lg:mt-[4.5rem] mt-12">
+        <a href="" class="hover:text-amber-500">INTALACIONES</a>
+        <a href="" class="hover:text-amber-500 text-amber-500">SOLUCIONES</a>
+        <a href="" class="hover:text-amber-500">NOSOTROS</a>
+        <a href="" class="hover:text-amber-500">COTIZAR</a>
+    </div>
+    <!-- CONTENIDO PRINCIPAL  -->
+    <div class="lg:mt-36  mt-24">
+        
+        <section class="grid grid-cols-2 grid-rows-1 md:mx-10 mx-3 sm:mt-10 mt-5">
+            <div class="sm:col-start-1 sm:col-end-2 col-start-1 col-end-3 row-span-1">
+                <p class="roboto-regular text-sm ">Rellene los siguientes campos necesarios del formulario. Nos comunicaremos contigo lo antes posible.</p>
+            </div>
+            <div class="sm:col-start-2 sm:col-end-3 col-start-1 col-end-3 row-span-1">
+
+            </div>
+        </section>
+        
+        <!-- AMBAS - FORMULARIO Y IMAGEN ------------------- -->
+        <section class="grid grid-cols-2 grid-rows-2 md:mx-10 mx-3 sm:my-5 my-3 lg:mx-32">
+
+            <!-- FORMULARIO DE COTIZACION --------------- -->
+            <div class="sm:col-start-1 sm:col-end-2 sm:row-span-2 col-start-1 col-end-3 row-start-1 row-end-2 2xl:mr-52 xl:mr-32 lg:mr-20 md:mr-5 sm:mr-10 mr-0">
+                <app-form></app-form>
+            </div>
+
+            <!-- IMAGENES LOS 3  ----------- -->
+            <div class="sm:col-start-2 sm:col-end-3 sm:row-span-2 col-start-1 col-end-3 row-start-2 row-end-3 grid sm:mx-0 mx-5 my-5">
+                <img src="assets/img/services/servicio01.png" alt="Camaras de videovigilancia" class="sm:w-1/2 w-2/3">
+                <img src="assets/img/services/servicio02.png" alt="Alarma contra Incendios" class="sm:w-1/2 w-2/3 origin-top-left rotate-12 justify-self-end">
+                <img src="assets/img/services/servicio04.png" alt="Mantenimiento de equipos de computo" class="sm:w-1/2 w-2/3 origin-bottom -rotate-12 ">
+            </div>
+
+        </section>
+    </div>
+</main>
+
+<!-- FOOTER ---------------------------------- -->
+<footer>
+    <app-footer></app-footer>
+</footer>

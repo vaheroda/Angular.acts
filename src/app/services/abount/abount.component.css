@@ -1,0 +1,8 @@
+
+.grid-rows-2 {
+  grid-template-rows: min-content min-content;
+}
+
+.grid-rows-4 {
+    grid-template-rows: min-content min-content;
+}
